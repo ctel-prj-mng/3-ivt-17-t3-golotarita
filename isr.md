@@ -29,12 +29,12 @@ https://docs.google.com/document/d/13ZBLtBshuCr_7Sx8rnl0I6iR01MHmkF2Zu_7Tgo8pIU/
 			Assert.fail();
 		}
 	
-  public void testMinus() {
+	public void testMinus() {
 		Calculator calculator = new Calculator();
 		Assert.assertEquals(0, calculator.minus(2, 2));
 	}
   
-  public void testDivide() {
+	public void testDivide() {
 		Calculator calculator = new Calculator();
 		Assert.assertEquals(2, calculator.divide(6, 3));
 	}
